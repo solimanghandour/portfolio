@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div>
+        <h2 class="mt-5">Calculator</h2>
+        <br><br><br>
+    <input class="form-control-sm ms-5 col-6" type="text" id="num1">
+    <br><br>
+    <input class="form-control-sm ms-5 col-6" type="text" id="num2">
+<br> <br>
+
+    <button class="btn btn-dark ms-4 me-4 col-3" onclick="multiple()">X</button>
+    <button class="btn btn-dark ms-4 me-4 col-3" onclick="sum()">+</button>
+    <button class="btn btn-dark ms-4 me-4 col-3" onclick="subtract()">-</button>
+    <button class="btn btn-dark ms-4 me-4 col-3" onclick="division()">/</button>
+    <br><br> <br>
+    <h1 id="result"></h1>
+</div>
+
+
+    
+    <script src="bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

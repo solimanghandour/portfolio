@@ -1,0 +1,21 @@
+
+
+
+.logo>img{
+    border-radius: 100px;
+
+}
+.navbar li :hover{
+    font-size: 2rem;
+}
+.section1{
+    margin: 10px 0;
+}
+
+.logo2:hover{
+width: 10%;
+}
+footer{
+    margin: 25px;
+}
+.card

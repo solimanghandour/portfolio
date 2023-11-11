@@ -1,0 +1,48 @@
+body{background-color: rgb(46, 44, 44);
+
+}
+.navbar{
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    height: 50px;
+
+  }
+.img2{
+    height: 100%;
+    width: 100%;
+}
+
+
+.AR{
+    border-style: solid;
+    color:#D08D24;
+}
+
+.card img {
+    border-radius: 100px;
+}
+#input{
+    height: 300px;
+}
+.footer{
+    background-color: rgb(66, 64, 61);
+}
+
+  .size>p:hover{font-size: 30px;
+
+  }
+.section3{
+    margin: 50px;
+}
+.section4{
+    margin: 50px;
+}
+.section5{
+    margin: 50px;
+}
+.session8{
+    margin: 50px;
+}
+.session9{
+    margin: 50px;
+}

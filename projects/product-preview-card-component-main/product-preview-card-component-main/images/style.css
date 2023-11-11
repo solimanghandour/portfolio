@@ -1,0 +1,120 @@
+/* ************ RESET ************ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ************ GENERAL ************ */
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    font-size: 14px;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: var(--Cream);
+}
+
+/* ************ START PAGE ************ */
+.product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 600px;
+    margin: 1rem;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.product img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.product .produts-content{
+    background: var(--White);
+    padding: 2rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.product .produts-content .category{
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: var(--Dark-grayish-blue);
+    text-transform: uppercase;
+}
+.product .produts-content h1{
+    color: var(--Very-dark-blue);
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 1;
+}
+.product .produts-content p {
+    font-size: 14px;
+    color: var(--Dark-grayish-blue);
+    line-height: 1.6;
+}
+.product .produts-content .price{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.product .produts-content .price .discount-price{
+    font-size: 30px;
+    color: var(--Dark-cyan);
+    margin-right: 20px;
+}
+.product .produts-content .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    background: var(--Dark-cyan);
+    color: var(--White);
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.product .produts-content .card::before{
+    content:"";
+    background-image: url(icon-cart.svg);
+    height: 16px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.attribution{
+display: flex;
+justify-content: center;
+ 
+}
+
+/* ************ MEDIA ************ */
+@media(max-width:700px){
+
+    .product{
+        grid-template-columns: 1fr;
+    }
+    .product img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+
+    }
+
+    .product .produts-content{
+        border-top-right-radius: 0px;
+         border-bottom-left-radius: 10px;
+
+
+
+    }
+}

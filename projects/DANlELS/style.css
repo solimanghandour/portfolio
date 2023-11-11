@@ -1,0 +1,36 @@
+header{ 
+background-image: url(img/bg.jpg);height: 100vh;
+}
+
+.card-group .card img{
+    width: 80%;
+    height: 100%;
+}
+.font{
+    background-color: black;
+    color: azure;
+    
+}
+.fa-solid:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 150px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 10px;
+
+}.font i{
+
+    margin-right: 20px;
+}
+.section2{
+    margin: 50px;
+}
+.section3{
+    margin: 50px;
+}
+.Testimonials{
+    margin: 50px;
+}
+.awesome{
+    margin: 0 10px;
+}

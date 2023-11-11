@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(206, 70, 240);
+}
+
+.section1{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    margin: 20px 50px;
+}
+
+.form{
+    width: 50px;
+}
+
+label{
+    color: rgb(220, 117, 216);
+    font-size: 20px;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(253, 98, 189);
+    margin: 50px 0px;
+
+}
+
+.notask h3{
+    margin: 30px;
+    background-color: blanchedalmond;
+    padding: 40px;
+    border: solid 40px cornflowerblue;
+    font-size:40PX;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.alltask{
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 102, 230);
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.btn{
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+p{
+    border-bottom: 10px solid rebeccapurple;
+}
+
+/*this is p in j.s*/
+.fa-sharp{
+    color: brown;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+

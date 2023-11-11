@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(220, 119, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.3);
+    width: 20%;
+  
+    
+}
+h2{
+    color: rgb(253, 246, 246);
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+box-sizing:border-box;
+width: 70%;
+}
+
+
+
+h1{
+    color: rgb(12, 12, 13);
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+

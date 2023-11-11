@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<section class="section1">
+<div class="task1">
+<div class="row g-2">
+<div class="col-md">
+<div class="alert alert-info" role="alert" id="alert1" style="display: none;">
+</div>
+<div class="form-floating">
+<br>
+<label for="">Username</label>
+<br> 
+<div class="username">
+<div class="input-group">
+<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" onclick="check()" id="email">
+</div>
+<div class="input-group mt-5">
+<input type="date" class="form-control" placeholder="password" aria-label="password" aria-describedby="basic-addon1">
+</div>
+</div>
+<br> <br>
+<button type="button" class="btn btn-dark" id="btn" onclick="">add Task</button>
+</div>
+</div>
+
+
+
+<div class="col-md">
+<div class="form-floating">
+<h1>List Tasks</h1>
+<div id="alltask" class="alltask">
+</div>
+<div id="notask" class="notask">
+<h3>NO Task added yet</h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+    
+
+
+<script src="bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
