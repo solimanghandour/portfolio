@@ -17,6 +17,7 @@ a{
 }
 
 /******** general *********/
+
 @font-face {
     font-family: 'Cairo', sans-serif;
     src: url(fonts/Cairo-Regular.ttf);
@@ -239,8 +240,7 @@ font-family: 'Courier New', Courier, monospace;
     
 }
 .about p {
-    width: 800px;
-    height: 200PX;
+    height: 100%;
     font-size: 30px;
     text-align: center;
     border: #83498C solid 3px ;
@@ -252,7 +252,7 @@ font-family: 'Courier New', Courier, monospace;
     margin: 50px 0;
 }
 .about .imge img {
-    width: 330px;
+    width: 100%;
 }
 
 /********** skills **********/
@@ -448,7 +448,7 @@ footer .icon a:hover{
 
 /******** Media *********/
 @media  screen and 
-(max-width:650px){
+(max-width:750px){
     .parents {
         display: block;
     }
@@ -458,4 +458,87 @@ footer .icon a:hover{
     .about .container .about_text{
         display: block;
     }
+   
+    .parents h1{
+        font-size: 3rem;
+    }
+    .parents h3{
+        font-size: 3rem;
+        margin: 0px 30%;
+
+
+    }
+    .parents h4{
+        font-size: 1rem; 
+    }
+    ul li a {
+        font-size: 20px;
+
+    }
+
+  
+ 
+    
 }
+/* /// */
+
+@media  screen and 
+(max-width:630px){
+    .parents {
+        display: block;
+    }
+    .parents button{
+        display: flex;
+        margin: 20px;
+    }
+    .parents h1{
+        font-size: 1.4rem;
+    }
+    .parents h4{
+        font-size: 13px;
+        
+    }
+    html{
+        font-size: 15px;
+    }
+    ul li a {
+        font-size: 15px;
+
+    }
+    .projects_box .containeer .box_img{
+       margin: 5px 20px;
+    }
+ 
+    .projects h2 {
+        font-size: 30px;
+    }
+    .skills h2 {
+        font-size: 30px;
+    }
+    footer h2 {
+        font-size: 2rem;
+    }
+    footer .icon{
+height: 100px;
+    }
+    .projects_box .containeer .box_img .text h4{
+        font-size: 1rem;
+        color: white;
+         
+      }
+      .topbar .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .parents h1::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 0%;
+        width: 100%;
+        background-color: #EAE8E7;
+        border-left: solid 2px #ff0217;
+    }
+}
+
